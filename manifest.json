@@ -1,11 +1,12 @@
 {
-  "name": "My Extension",
+  "name": "Facebook Friend Renamer",
   "version": "0.1",
-  "description": "Just a template",
+  "description": "Lets you rename facebook friends so you can identify them",
   "content_scripts": [
     {
-      "matches": ["http://github.com/*"],
-      "js": ["jquery-1.3.2.min.js", "content.js"]
+      "matches": ["http://*.facebook.com/*"],
+      "js": ["jquery-1.3.2.min.js", "content.js"],
+      "run_at": "document_start"
     }
   ]
 }
