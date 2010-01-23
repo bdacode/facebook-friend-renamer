@@ -2,6 +2,7 @@
   "name": "Facebook Friend Renamer",
   "version": "0.1",
   "description": "Lets you rename facebook friends so you can identify them",
+  "update_url": "http://github.com/tekkub/tender-checker/raw/master/updates.xml",
   "content_scripts": [
     {
       "matches": ["http://*.facebook.com/*"],
